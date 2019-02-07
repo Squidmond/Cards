@@ -1,0 +1,11 @@
+C:\Users\Bligh\source\repos\Cards\Cards\obj\Debug\netcoreapp2.2\Cards.csprojAssemblyReference.cache
+C:\Users\Bligh\source\repos\Cards\Cards\obj\Debug\netcoreapp2.2\Cards.csproj.CoreCompileInputs.cache
+C:\Users\Bligh\source\repos\Cards\Cards\obj\Debug\netcoreapp2.2\Cards.AssemblyInfoInputs.cache
+C:\Users\Bligh\source\repos\Cards\Cards\obj\Debug\netcoreapp2.2\Cards.AssemblyInfo.cs
+C:\Users\Bligh\source\repos\Cards\Cards\bin\Debug\netcoreapp2.2\Cards.deps.json
+C:\Users\Bligh\source\repos\Cards\Cards\bin\Debug\netcoreapp2.2\Cards.runtimeconfig.json
+C:\Users\Bligh\source\repos\Cards\Cards\bin\Debug\netcoreapp2.2\Cards.runtimeconfig.dev.json
+C:\Users\Bligh\source\repos\Cards\Cards\bin\Debug\netcoreapp2.2\Cards.dll
+C:\Users\Bligh\source\repos\Cards\Cards\bin\Debug\netcoreapp2.2\Cards.pdb
+C:\Users\Bligh\source\repos\Cards\Cards\obj\Debug\netcoreapp2.2\Cards.dll
+C:\Users\Bligh\source\repos\Cards\Cards\obj\Debug\netcoreapp2.2\Cards.pdb
