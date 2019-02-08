@@ -6,6 +6,9 @@ namespace Cards
 {
     class Deck
     {
+        #region Fields
+         private int _position = 0;
+	    #endregion
         #region Properties
         public List<Card> Cards { get; }
         #endregion
@@ -36,7 +39,6 @@ namespace Cards
             {
                 int lowIndex = rnd.Next(0, this.Cards.Count);
                 int highIndex = rnd.Next(0, this.Cards.Count);
-                //SwapCards(LowIndex: lowIndex, HighIndex: highIndex);
                 Card holdCard = this.Cards[index: lowIndex];
                 this.Cards[index: lowIndex] = this.Cards[index: highIndex];
                 this.Cards[index: highIndex] = holdCard;
@@ -52,17 +54,17 @@ namespace Cards
             }
             Console.WriteLine("\n\n");
         }
-        //private void SwapCards(int LowIndex, int HighIndex)
-        //{
-        //    string holdSuit = this.Cards[index: LowIndex].suit;
-        //    string holdValue = this.Cards[index: LowIndex].value;
-        //    this.Cards[index: LowIndex].suit =
-        //        this.Cards[index: HighIndex].suit;
-        //    this.Cards[index: LowIndex].value =
-        //        this.Cards[index: HighIndex].value;
-        //    this.Cards[index: HighIndex].suit = holdSuit;
-        //    this.Cards[index: HighIndex].value = holdValue;
-        //}
+
+        public Card Draw()
+        {
+            Card nextCard = null;
+            if (_position <= 52)
+            {
+                nextCard = this.Cards[index: _position];
+                _position++;
+            }
+            return nextCard;
+        }
         #endregion
     }
 }
